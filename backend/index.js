@@ -10,7 +10,7 @@ import multer from 'multer';
 const upload = multer();
 // Enable CORS
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://finaldep.onrender.com',
     credentials: true,
 }));
 
