@@ -10,7 +10,7 @@ import multer from 'multer';
 const upload = multer();
 // Enable CORS
 app.use(cors({
-    origin: 'https://finaldep.onrender.com',
+    origin: 'https://webstack9975.netlify.app',
     credentials: true,
 }));
 
